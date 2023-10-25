@@ -114,10 +114,7 @@ export const Training = () => {
                         </div>
 
                         <div className='flex justify-between'>
-                            {/* <div className='lg:w-[15vw] py-2 border ms-10 mt-5'>
-                                <h1 className='text-center text-md flex justify-between '><div className='bg-black rounded-full'></div>UI/UX Designer <RiArrowDropDownFill onClick={handleChange} className={`cursor-pointer mt-1 ${open ? 'rotate-180' :''}`}/></h1>
-                                <p className={`${ open ? 'block' : 'hidden'} text-center text-xs `}>2 months remote training 6 months <br/>location:Accra,Airport</p>
-                            </div> */}
+                            
                             <Dropdown name={`2 months remote training 6 months\nlocation:Accra,Airport`}/>
                             <div className=' flex items-center me-14 px-5 '>
                                     <button className='border shadow-md px-6 shadow-orange-200 rounded-lg me-5 font-family hover:bg-orange-50 transition ease-out duration-300'>Accept</button>
