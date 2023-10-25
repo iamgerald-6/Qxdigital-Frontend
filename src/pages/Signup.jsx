@@ -30,9 +30,9 @@ function Signup() {
 
       /*navigation*/ 
     navigate("/CVReviewStatus", { state: formData });
-    {
+    
       /*navigation*/
-    }
+    
     navigate("/CVReviewStatus");
     console.log(formData);
   };

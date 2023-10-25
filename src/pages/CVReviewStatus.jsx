@@ -3,7 +3,7 @@ import Navbar from "../Components/Navbar";
 import ProgressBar from "@ramonak/react-progress-bar";
 import {Link} from 'react-router-dom'
 import { useState } from "react";
-import SubMenus from "../Components/SubMenus";
+// import SubMenus from "../Components/SubMenus";
 
 function CVReviewStatus() {
   const CVStatus = {
