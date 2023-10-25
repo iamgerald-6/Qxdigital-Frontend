@@ -32,10 +32,10 @@ const Login = () => {
     setIsChecked(!isChecked);
   };
   // Handle form submission
-  const handleSubmit = (e) => {
-    e.preventDefault();
-    console.log(formData);
-  };
+  // const handleSubmit = (e) => {
+  //   e.preventDefault();
+  //   console.log(formData);
+  // };
 
   return (
     <div className="flex flex-col h-[rem] sm:flex-row mx-[20px] justify-center align-center ">
