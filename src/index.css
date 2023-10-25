@@ -13,12 +13,18 @@
   align-items: center;
   justify-content: center;
 } */
+
+*{
+  margin:0;
+  padding:0;
+  box-sizing: border-box;
+}
 .logo {
   font-family: "Dela Gothic One", cursive;
 }
 
 .overflow-y-scroll::-webkit-scrollbar {
-  width:10px;
+  width:9px;
 }
 
 .overflow-y-scroll::-webkit-scrollbar-thumb {
