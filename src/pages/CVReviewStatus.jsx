@@ -87,9 +87,8 @@ function CVReviewStatus() {
           <button className="w-[100%] h-[25%] bg-[#1c1c21] text-white shadow-xl mt-4 rounded-md font-semibold duration-[0.5s] hover:bg-[#f7682a] ">
             CV REVIEW STATUS <span></span>
           </button>
-          <button className="w-[100%] h-[25%] bg-[#1c1c21] text-white mt-4 rounded-md font-semibold duration-[0.5s] hover:bg-[#f7682a] ">
-            MESSAGES
-            <span></span>
+          <button className="w-[100%] h-[25%] bg-[#1c1c21] text-white mt-4 rounded-md font-semibold duration-[0.5s] hover:bg-[#f7682a] "><Link to="/cvmessages">
+             MESSAGES</Link><span></span>
           </button>
           <button  className="w-[100%] h-[25%] bg-[#1c1c21] text-white mt-4 rounded-md font-semibold duration-[0.5s] hover:bg-[#f7682a]"><Link to='/trainingoffer'>
             TRAINING OFFERS </Link><span></span>

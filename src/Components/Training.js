@@ -79,9 +79,9 @@ export const Training = () => {
 
             <div className='lg:flex lg:flex-row flex-col'>
                 <div className='border mt-5 h-[44vh] flex justify-center flex-col items-center rounded-tr-[48px]  lg:w-[68vw] shadow-md shadow-slate-800'>
-                    <button className='w-[40vw] lg:w-[27vw] shadow-md shadow-orange-300 py-2 border uppercase hover:bg-orange-50 transition ease-out duration-300 flex font-family justify-evenly'>Cv Review Status <SiGoogledocs className=' mt-1' /></button>
-                    <button  className='w-[40vw] lg:w-[27vw] text-center shadow-md shadow-orange-300 mt-4 py-2 border uppercase hover:bg-orange-50 transition ease-out font-family duration-300 flex justify-evenly'>Messages <BsFillChatDotsFill className='lg:ms-12  mt-1'/></button>
-                    <NavLink to='/trainingoffer' style={buttonStyle} className='w-[40vw] lg:w-[27vw] shadow-md shadow-orange-300  mt-4 py-2 border uppercase flex font-family justify-evenly'>Training Offers<HiBriefcase className='  mt-1' /></NavLink>
+                 <NavLink to='/cvreviewstatus' style={buttonStyle} className='w-[40vw] lg:w-[27vw] shadow-md shadow-orange-300  mt-4 py-2 border uppercase flex font-family justify-evenly'>cv review status<SiGoogledocs className=' mt-1' /></NavLink>
+                 <NavLink to='/cvmessages' style={buttonStyle} className='w-[40vw] lg:w-[27vw] shadow-md shadow-orange-300  mt-4 py-2 border uppercase flex font-family justify-evenly'>Messages<BsFillChatDotsFill className='lg:ms-12  mt-1' /></NavLink>
+                 <NavLink to='/trainingoffer' style={buttonStyle} className='w-[40vw] lg:w-[27vw] shadow-md shadow-orange-300  mt-4 py-2 border uppercase flex font-family justify-evenly'>Training Offers<HiBriefcase className='  mt-1' /></NavLink>
                 </div>
                 <div className=''>
 
